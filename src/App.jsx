@@ -30,13 +30,12 @@ function App() {
               </div>
             <div className='g2-fx1-g2'></div>
             <div className='g2-fx1-g3'>
-              <img src={img3} className='g3-img'style={{width: '330px'}}/>
-              <span className='transparent'></span>
-              <p>Manage multiple accounts and platforms.</p>
+              <img src={img3} className='g3-img'style={{width: '330px'}}/>              
+              <p style={{marginTop: '80px'}}>Manage multiple accounts and platforms.</p>
             </div>
             <div className='g2-fx1-g4' >
               <p style={{marginTop:'12px', marginBottom:'10px'}}>Maintain a consistent posting schedule.</p>
-              <div className='schedulebox'>
+              {/* <div className='schedulebox'>
                 <img src={img4} className='purplebox' />
                 <img src={img5} className='august'/>
                 <img src={img6} className='week'/>
@@ -46,7 +45,7 @@ function App() {
                   <img src={img7} className='checked' alt="checked sign" />
                   <img src={img7} className='checked' alt="checked sign" />
                 </div>
-              </div>
+              </div> */}
               
             </div>
             <div className='g2-fx1-g5'></div>

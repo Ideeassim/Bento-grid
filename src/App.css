@@ -1,8 +1,8 @@
 :root{
-  --offwhite: rgb(244, 238, 238);
-  --lightpink:rgb(252, 228, 232);
+  --offwhite: rgb(246, 245, 246);
+  --lightpink: rgb(249, 238, 226);
   --orange:rgb(245, 188, 83);
-  --darkpurple: rgb(109, 29, 195);
+  --darkpurple:rgb(117, 81, 220);
 
 }
 
@@ -53,7 +53,7 @@ gap: 15px;
 .grid1-flex1{
   height: 50%;
   background-color: var(--lightpink);
-  padding: 15px 10px 10px 10px;
+  padding: 15px 15px 10px 15px;
 }
 .grid1-flex2{
   height: 50%;
@@ -104,7 +104,7 @@ grid-row-start: 3;
 grid-row-end: 4;
 position: relative;
 color: black !important;
-
+overflow: hidden;
 }
 .g2-fx1-g4{
 background-color: rgb(255, 204, 106);
@@ -138,16 +138,19 @@ div{
 
 .grid1-flex1>
 h3{
-  font-size: 1.5rem;
+  font-size: 2.8rem;
   /* font-weight: 400; */
+  line-height: 38px;
+  margin-bottom: 30px;
+  padding-left: 20px;
 }
 .grid1-flex1>h3>.lastword{
  color: var(--darkpurple);
  font-family: 'DMSans-Italic';
 }
 
-img{
-  height: 50px;
+.grid1-flex1>img{
+  height: 100px;
 }
 
 .g2-img{
@@ -183,32 +186,21 @@ position:absolute;
 
 }
 
-.transparent{
-  opacity:1;
-  /* border:1px solid rgb(18, 17, 17); */
-  
-   display:block; 
-  
-   position:absolute;
-  top:0;
-  left:100%;
-  background: var(--offwhite);
-  height: 52px;
-  width: 20px;
-} 
+
 
 .g2-fx1-g3>p{
-padding-top: 40px;
-font-size: 36px;
-padding-left: 10px;
-line-height: 28px;
-font-weight: 500;
+  font-weight: 500;
+  line-height: 23px;
+  font-size: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 25px;
 
 }
 
 .g2-fx1-g4>p{
   font-weight: 500;
-  line-height: 28px;
+  line-height: 23px;
   font-size: 28px;
   padding: 0px 24px 0px 24px;
 }
